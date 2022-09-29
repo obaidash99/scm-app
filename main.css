@@ -151,9 +151,9 @@ nav li a:hover {
 }
 /* Responsive Home */
 @media (max-width: 767px) {
-   .home {
-      height: 100vh;
-   }
+	.home {
+		height: 100vh;
+	}
 	.home .content h1 {
 		width: 95%;
 		font-size: 27px;
