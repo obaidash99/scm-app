@@ -299,7 +299,7 @@ nav li a:hover {
 /* Start Instructions */
 .instructions ul {
 	list-style: number;
-	width: fit-content;
+	/* width: fit-content; */
 	margin: auto;
 	font-size: 22px;
 	text-align: right;
@@ -319,6 +319,7 @@ nav li a:hover {
 .instructions .child-list {
 	list-style: none;
 	font-size: 19px;
+	list-style: disc;
 }
 .instructions .child-list li {
 	margin-top: 8px;
