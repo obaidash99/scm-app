@@ -258,7 +258,7 @@ nav li a:hover {
 	display: block;
 	text-align: center;
 }
-.main .info span {
+.main span {
 	font-weight: bold;
 	color: var(--main-color);
 }
