@@ -215,7 +215,7 @@ nav li a:hover {
 }
 
 .footer {
-	padding: 50px 20px;
+	padding: 20px;
 	margin: 0;
 	display: flex;
 	justify-content: space-around;
@@ -392,6 +392,9 @@ footer .copy-right {
 }
 .instructions img {
 	width: 700px;
+}
+.instructions h3 {
+	margin: 20px;
 }
 .instructions h3 a {
 	color: var(--main-color-alt);
