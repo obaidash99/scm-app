@@ -13,6 +13,7 @@
 }
 body {
 	font-family: 'Noto Kufi Arabic', sans-serif;
+	overflow-anchor: none;
 }
 ul {
 	list-style: none;
@@ -238,6 +239,9 @@ nav li a:hover {
 	flex-direction: column;
 	gap: 20px;
 }
+.main ul {
+	width: 90%;
+}
 .main .content-1 {
 	display: flex;
 	align-items: center;
@@ -306,9 +310,11 @@ nav li a:hover {
 }
 .instructions .intro ul li {
 	transition: var(--main-transition-duration);
+	width: fit-content;
+	cursor: pointer;
 }
 .instructions .intro ul li:hover {
-	transform: scale(1.1);
+	transform: scale(1.01);
 	background-color: var(--main-color-alt);
 	padding: 5px;
 	border-radius: 6px;
