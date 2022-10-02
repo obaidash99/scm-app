@@ -201,9 +201,10 @@ nav li a:hover {
 	flex-direction: column;
 	justify-content: space-between;
 	background-color: #eee;
+	height: 100%;
 }
 .applications .card:hover {
-	transform: scale(1.1);
+	transform: scale(1.05);
 }
 .applications .card h4 {
 	color: var(--main-color-alt);
@@ -213,7 +214,6 @@ nav li a:hover {
 	margin-top: 12px;
 	margin-bottom: 10px;
 }
-
 .footer {
 	padding: 20px;
 	margin: 0;
