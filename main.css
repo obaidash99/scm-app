@@ -337,6 +337,16 @@ nav li a:hover {
 .instructions img {
 	width: 700px;
 }
+.instructions h3 a {
+	color: var(--main-color-alt);
+	transition: var(--main-transition-duration);
+}
+.instructions h3:hover a {
+	background-color: var(--main-color);
+	color: white;
+	border-radius: 6px;
+	padding: 5px;
+}
 /* Instructions Responsive */
 @media screen and (max-width: 767px) {
 	.instructions img {
