@@ -351,6 +351,12 @@ footer .copy-right {
 }
 
 /* Start Instructions */
+.instructions .disc {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 30px;
+}
 .instructions ul {
 	list-style: number;
 	/* width: fit-content; */
@@ -358,18 +364,18 @@ footer .copy-right {
 	font-size: 22px;
 	text-align: right;
 }
-.instructions .intro ul li {
+.instructions .guid ul li {
 	transition: var(--main-transition-duration);
 	width: fit-content;
 	cursor: pointer;
 }
-.instructions .intro ul li:hover {
+.instructions .guid ul li:hover {
 	transform: scale(1.01);
 	background-color: var(--main-color-alt);
 	padding: 5px;
 	border-radius: 6px;
 }
-.instructions .intro ul li:hover a {
+.instructions .guid ul li:hover a {
 	color: white;
 }
 .instructions .child-list {
@@ -393,9 +399,9 @@ footer .copy-right {
 .instructions img {
 	width: 700px;
 }
-.instructions h3 {
+/* .instructions h3 {
 	margin: 20px;
-}
+} */
 .instructions h3 a {
 	color: var(--main-color-alt);
 	transition: var(--main-transition-duration);
@@ -410,5 +416,8 @@ footer .copy-right {
 @media screen and (max-width: 767px) {
 	.instructions img {
 		width: 350px;
+	}
+	.instructions .disc {
+		flex-direction: column;
 	}
 }
