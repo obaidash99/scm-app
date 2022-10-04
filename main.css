@@ -3,6 +3,8 @@
 	--main-color: #538fcc;
 	--main-color-alt: #4372a1;
 	--main-transition-duration: all 0.3s ease;
+	--eraser-color: #7c2b2b;
+	--eraser-color-alt: #cc5353;
 }
 
 * {
@@ -143,11 +145,14 @@ nav li a:hover {
 	margin: 30px auto;
 	color: var(--main-color-alt);
 }
+/* .arrow-parent {
+	position: relative;
+}
 .go-down {
 	color: var(--main-color-alt);
 	position: absolute;
 	transition: var(--main-transition-duration);
-	font-size: 30px;
+	font-size: 10px;
 	animation: bouncing 1.5s infinite;
 	margin-top: 15px;
 	left: 50%;
@@ -155,7 +160,7 @@ nav li a:hover {
 }
 .go-down:hover {
 	color: var(--main-color);
-}
+} */
 /* Responsive Home */
 @media (max-width: 767px) {
 	.home {
@@ -172,7 +177,7 @@ nav li a:hover {
 /* Start Applications */
 .applications {
 	padding-top: 50px;
-	padding-bottom: 50px;
+	/* padding-bottom: 50px; */
 	text-align: center;
 }
 .applications h2 {
@@ -214,28 +219,34 @@ nav li a:hover {
 	margin-top: 12px;
 	margin-bottom: 10px;
 }
+/* Start Footer */
 .footer {
-	padding: 20px;
-	margin: 0;
+	margin-top: 30px;
+	padding-top: 10px;
+	border-top: 2px solid #eee;
 	display: flex;
-	justify-content: space-around;
 	align-items: center;
-	box-shadow: 0px -9px 22px 0px rgba(221, 221, 221, 0.75);
-	-webkit-box-shadow: 0px -9px 22px 0px rgba(221, 221, 221, 0.75);
-	-moz-box-shadow: 0px -9px 22px 0px rgba(221, 221, 221, 0.75);
+	/* justify-content: space-evenly; */
+	gap: 30px;
 }
 .footer .image {
-	width: 60%;
+	width: 50%;
 }
-.footer a img {
+/* .footer .image a {
 	width: 100%;
+} */
+.footer .image a img {
+	width: 50%;
 }
 .footer ul {
+	width: fit-content;
+	margin: auto;
 	text-align: right;
 }
 .footer ul li {
 	margin: 10px;
 	cursor: pointer;
+	width: fit-content;
 	transition: var(--main-transition-duration);
 }
 .footer ul li a {
@@ -252,6 +263,9 @@ footer .copy-right {
 	background-color: var(--main-color-alt);
 	color: white;
 	text-align: center;
+}
+footer .copy-right p {
+	margin: 0;
 }
 /* Responsive Footer */
 @media screen and (max-width: 767px) {
@@ -373,7 +387,6 @@ footer .copy-right {
 	cursor: pointer;
 }
 .instructions .guid ul li:hover {
-	transform: scale(1.01);
 	background-color: var(--main-color-alt);
 	padding: 5px;
 	border-radius: 6px;
@@ -392,12 +405,12 @@ footer .copy-right {
 .child-list span a {
 	color: var(--main-color-alt);
 	transition: var(--main-transition-duration);
+	padding: 0 2px;
 }
 .child-list span a:hover {
 	background-color: var(--main-color-alt);
 	color: white;
 	border-radius: 6px;
-	padding: 0;
 }
 .instructions img {
 	width: 700px;
@@ -409,11 +422,11 @@ footer .copy-right {
 	color: var(--main-color-alt);
 	transition: var(--main-transition-duration);
 }
-.instructions h3:hover a {
+.instructions h3 a:hover {
 	background-color: var(--main-color);
 	color: white;
 	border-radius: 6px;
-	padding: 5px;
+	padding: 2px;
 }
 /* Instructions Responsive */
 @media screen and (max-width: 767px) {
@@ -423,4 +436,31 @@ footer .copy-right {
 	.instructions .disc {
 		flex-direction: column;
 	}
+}
+/* Eraser Colors */
+.eraser h3 {
+	color: var(--eraser-color);
+}
+.eraser span {
+	color: var(--eraser-color-alt);
+}
+.eraser .child-list span a {
+	color: var(--eraser-color-alt);
+}
+.eraser .child-list span a:hover {
+	background-color: var(--eraser-color-alt);
+	color: white;
+}
+.eraser .instructions .guid ul li:hover {
+	background-color: var(--eraser-color-alt);
+}
+.eraser .instructions .guid ul li:hover a {
+	color: white;
+}
+.eraser .instructions h3 a {
+	color: var(--eraser-color-alt);
+}
+.eraser .instructions h3 a:hover {
+	background-color: var(--eraser-color-alt);
+	color: white;
 }
