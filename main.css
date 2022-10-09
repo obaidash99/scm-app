@@ -312,8 +312,11 @@ footer .copy-right p {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	/* padding-bottom: 30px; */
 	gap: 30px;
+}
+.main .content-1 .how h3,
+.main .content-1 .how p {
+	text-align: center;
 }
 .main div {
 	flex: 1;
@@ -326,7 +329,7 @@ footer .copy-right p {
 	line-height: 2;
 	margin-top: 8px;
 	display: block;
-	text-align: center;
+	text-align: right;
 }
 .main span {
 	font-weight: bold;
@@ -344,10 +347,14 @@ footer .copy-right p {
 	font-size: 25px;
 	color: var(--main-color);
 	margin: 20px 0 0;
+	text-align: right;
 }
 .main .content-2 {
-	text-align: center;
+	text-align: right;
 	padding-bottom: 50px;
+}
+.main .content-2 q {
+	text-align: right;
 }
 .main .content-3 {
 	text-align: center;
@@ -358,20 +365,29 @@ footer .copy-right p {
 	.main .content-1 {
 		flex-direction: column;
 		justify-content: center;
+		text-align: right;
 	}
 	.main p,
 	.main q {
 		width: 90%;
 		margin: auto;
+		text-align: right;
+	}
+	.main .content-1 .how h3,
+	.main .content-1 .how p {
+		text-align: right;
 	}
 }
 
 /* Start Instructions */
 .instructions .disc {
 	display: flex;
+	flex-direction: column;
 	justify-content: space-between;
-	align-items: center;
-	gap: 30px;
+	align-items: flex-start;
+}
+.instructions .disc .one h3 {
+	text-align: right;
 }
 .instructions ul {
 	list-style: number;
@@ -467,7 +483,7 @@ footer .copy-right p {
 	color: white;
 }
 
-/* Nitwarden Colors */
+/* Bitwarden Colors */
 .bitwarden h3 {
 	color: var(--bitwarden-color);
 }
