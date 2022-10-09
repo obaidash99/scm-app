@@ -5,6 +5,8 @@
 	--main-transition-duration: all 0.3s ease;
 	--eraser-color: #7c2b2b;
 	--eraser-color-alt: #cc5353;
+	--bitwarden-color: #14449c;
+	--bitwarden-color-alt: #175ddc;
 }
 
 * {
@@ -413,7 +415,7 @@ footer .copy-right p {
 	border-radius: 6px;
 }
 .instructions img {
-	width: 700px;
+	width: 60%;
 }
 /* .instructions h3 {
 	margin: 20px;
@@ -431,7 +433,7 @@ footer .copy-right p {
 /* Instructions Responsive */
 @media screen and (max-width: 767px) {
 	.instructions img {
-		width: 350px;
+		width: 90%;
 	}
 	.instructions .disc {
 		flex-direction: column;
@@ -462,5 +464,33 @@ footer .copy-right p {
 }
 .eraser .instructions h3 a:hover {
 	background-color: var(--eraser-color-alt);
+	color: white;
+}
+
+/* Nitwarden Colors */
+.bitwarden h3 {
+	color: var(--bitwarden-color);
+}
+.bitwarden span {
+	color: var(--bitwarden-color-alt);
+}
+.bitwarden .child-list span a {
+	color: var(--bitwarden-color-alt);
+}
+.bitwarden .child-list span a:hover {
+	background-color: var(--bitwarden-color-alt);
+	color: white;
+}
+.bitwarden .instructions .guid ul li:hover {
+	background-color: var(--bitwarden-color-alt);
+}
+.bitwarden .instructions .guid ul li:hover a {
+	color: white;
+}
+.bitwarden .instructions h3 a {
+	color: var(--bitwarden-color-alt);
+}
+.bitwarden .instructions h3 a:hover {
+	background-color: var(--bitwarden-color-alt);
 	color: white;
 }
