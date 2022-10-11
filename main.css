@@ -415,7 +415,7 @@ footer .copy-right p {
 .instructions .child-list {
 	list-style: none;
 	font-size: 19px;
-	list-style: disc;
+	list-style: number;
 }
 .instructions .child-list li {
 	margin-top: 8px;
