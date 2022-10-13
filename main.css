@@ -412,6 +412,7 @@ footer .copy-right p {
 .instructions .guid ul li:hover a {
 	color: white;
 }
+.content .child-list,
 .instructions .child-list {
 	list-style: none;
 	font-size: 19px;
