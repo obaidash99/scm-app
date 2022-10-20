@@ -522,6 +522,11 @@ footer .copy-right p {
 	flex: 50%;
 }
 .special .image img {
-	width: 90%;
-	height: 90%;
+	height: 100%;
+}
+
+@media (max-width: 767px) {
+	.special .image {
+		flex: 70%;
+	}
 }
