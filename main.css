@@ -511,3 +511,17 @@ footer .copy-right p {
 	background-color: var(--bitwarden-color-alt);
 	color: white;
 }
+
+.special {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.special .image {
+	flex: 50%;
+}
+.special .image img {
+	width: 90%;
+	height: 90%;
+}
