@@ -7,6 +7,8 @@
 	--eraser-color-alt: #cc5353;
 	--bitwarden-color: #14449c;
 	--bitwarden-color-alt: #175ddc;
+	--authy-color: #ee1b22;
+	--authy-color-alt: #be0006;
 }
 
 * {
@@ -347,6 +349,9 @@ footer .copy-right p {
 .main .image img {
 	width: 90%;
 }
+.main.authy .image img {
+	width: 75%;
+}
 .main h3 {
 	font-size: 25px;
 	color: var(--main-color);
@@ -516,6 +521,34 @@ footer .copy-right p {
 	color: white;
 }
 
+/* Authy Colors */
+.authy h3 {
+	color: var(--authy-color);
+}
+.authy span {
+	color: var(--authy-color-alt);
+}
+.authy .child-list span a {
+	color: var(--authy-color-alt);
+}
+.authy .child-list span a:hover {
+	background-color: var(--authy-color-alt);
+	color: white;
+}
+.authy .instructions .guid ul li:hover {
+	background-color: var(--authy-color-alt);
+}
+.authy .instructions .guid ul li:hover a {
+	color: white;
+}
+.authy .instructions h3 a {
+	color: var(--authy-color-alt);
+}
+.authy .instructions h3 a:hover {
+	background-color: var(--authy-color-alt);
+	color: white;
+}
+
 .special {
 	display: flex;
 	flex-direction: row;
@@ -527,6 +560,10 @@ footer .copy-right p {
 }
 .special .image img {
 	height: 100%;
+}
+
+.authy .special .image img {
+	height: 80%;
 }
 
 @media (max-width: 767px) {
