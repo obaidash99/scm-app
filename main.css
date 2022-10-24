@@ -9,6 +9,8 @@
 	--bitwarden-color-alt: #175ddc;
 	--authy-color: #ee1b22;
 	--authy-color-alt: #be0006;
+	--mailvelope-color: #ff004f;
+	--mailvelope-color-alt: #c90040;
 }
 
 * {
@@ -548,6 +550,34 @@ footer .copy-right p {
 }
 .authy .instructions h3 a:hover {
 	background-color: var(--authy-color-alt);
+	color: white;
+}
+
+/* MailVelope Colors */
+.mailvelope h3 {
+	color: var(--mailvelope-color);
+}
+.mailvelope span {
+	color: var(--mailvelope-color-alt);
+}
+.mailvelope .child-list span a {
+	color: var(--mailvelope-color-alt);
+}
+.mailvelope .child-list span a:hover {
+	background-color: var(--mailvelope-color-alt);
+	color: white;
+}
+.mailvelope .instructions .guid ul li:hover {
+	background-color: var(--mailvelope-color-alt);
+}
+.mailvelope .instructions .guid ul li:hover a {
+	color: white;
+}
+.mailvelope .instructions h3 a {
+	color: var(--mailvelope-color-alt);
+}
+.mailvelope .instructions h3 a:hover {
+	background-color: var(--mailvelope-color-alt);
 	color: white;
 }
 
