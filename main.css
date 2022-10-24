@@ -149,7 +149,7 @@ nav li a:hover {
 	margin: 30px auto;
 	color: var(--main-color-alt);
 }
-/* .arrow-parent {
+.arrow-parent {
 	position: relative;
 }
 .go-down {
@@ -161,10 +161,12 @@ nav li a:hover {
 	margin-top: 15px;
 	left: 50%;
 	transform: translateX(-50%);
+	font-size: 30px;
 }
 .go-down:hover {
 	color: var(--main-color);
-} */
+}
+
 /* Responsive Home */
 @media (max-width: 767px) {
 	.home {
