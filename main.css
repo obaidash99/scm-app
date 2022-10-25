@@ -458,6 +458,9 @@ ul.apps li:hover a {
 	font-size: 19px;
 	list-style: number;
 }
+.child-list.new img {
+	width: 100%;
+}
 .instructions .child-list li {
 	margin-top: 8px;
 }
@@ -490,7 +493,7 @@ ul.apps li:hover a {
 /* Instructions Responsive */
 @media screen and (max-width: 767px) {
 	.instructions img {
-		width: 90%;
+		width: 100%;
 	}
 	.instructions .disc {
 		flex-direction: column;
