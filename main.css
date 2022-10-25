@@ -325,9 +325,36 @@ footer .copy-right p {
 	gap: 30px;
 }
 .main .content-1 .how h3,
+.main .content-1 .how .a-links,
 .main .content-1 .how p {
-	text-align: center;
+	/* text-align: center; */
 }
+
+.how ul.apps {
+	list-style: none;
+}
+
+ul.apps li {
+	margin-bottom: 5px;
+	border: 1px solid var(--main-color);
+	border-radius: 5px;
+	transition: 0.3s ease;
+}
+
+ul.apps a {
+	color: var(--main-color);
+	font-weight: bold;
+	transition: 0.3s ease;
+}
+
+ul.apps li:hover {
+	background-color: var(--main-color);
+}
+
+ul.apps li:hover a {
+	color: #fff;
+}
+
 .main div {
 	flex: 1;
 }
