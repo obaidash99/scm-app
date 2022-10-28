@@ -481,11 +481,13 @@ ul.apps li:hover a {
 .instructions .child-list li {
 	margin-top: 8px;
 }
+.main-list span a,
 .child-list span a {
 	color: var(--main-color-alt);
 	transition: var(--main-transition-duration);
 	padding: 0 2px;
 }
+.main-list span a:hover,
 .child-list span a:hover {
 	background-color: var(--main-color-alt);
 	color: white;
