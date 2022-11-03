@@ -389,6 +389,18 @@ ul.apps li:hover a {
 	font-weight: bold;
 	color: var(--main-color);
 }
+
+.special-span a {
+	color: orange;
+	padding: 2px 5px;
+	transition: all 0.3s ease;
+}
+.special-span:hover a {
+	border-radius: 5px;
+	color: #fff;
+	background-color: orange;
+}
+
 .main .image {
 	display: flex;
 	align-items: center;
