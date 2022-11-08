@@ -11,6 +11,8 @@
 	--authy-color-alt: #be0006;
 	--mailvelope-color: #ff004f;
 	--mailvelope-color-alt: #c90040;
+	--eset-color: #00656b;
+	--eset-color-alt: #00484c;
 }
 
 * {
@@ -636,6 +638,34 @@ ul.apps li:hover a {
 }
 .mailvelope .instructions h3 a {
 	color: var(--mailvelope-color-alt);
+}
+.mailvelope .instructions h3 a:hover {
+	background-color: var(--mailvelope-color-alt);
+	color: white;
+}
+
+/* ESET Colors */
+.eset h3 {
+	color: var(--eset-color);
+}
+.eset span {
+	color: var(--eset-color-alt);
+}
+.eset .child-list span a {
+	color: var(--eset-color-alt);
+}
+.eset .child-list span a:hover {
+	background-color: var(--eset-color-alt);
+	color: white;
+}
+.eset .instructions .guid ul li:hover {
+	background-color: var(--eset-color-alt);
+}
+.eset .instructions .guid ul li:hover a {
+	color: white;
+}
+.eset .instructions h3 a {
+	color: var(--eset-color-alt);
 }
 .mailvelope .instructions h3 a:hover {
 	background-color: var(--mailvelope-color-alt);
