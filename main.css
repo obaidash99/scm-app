@@ -250,7 +250,7 @@ footer {
 	width: 100%;
 }
 .footer .image a img {
-	width: 50%;
+	width: 90%;
 }
 .footer ul {
 	width: fit-content;
@@ -283,12 +283,15 @@ footer .copy-right p {
 }
 /* Responsive Footer */
 @media screen and (max-width: 767px) {
-	.footer {
+	/* .footer {
 		flex-direction: column-reverse;
 		justify-content: center;
-	}
+	} */
 	.footer .image {
-		width: 80%;
+		width: 100%;
+	}
+	.footer .image a img {
+		width: 100%;
 	}
 }
 /* Start Animation */
@@ -680,9 +683,14 @@ ul.apps li:hover a {
 }
 .special .image {
 	flex: 50%;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin-top: 5px;
 }
 .special .image img {
 	height: 100%;
+	width: 100%;
+	border-radius: 5px;
 }
 
 .authy .special .image img {
@@ -690,9 +698,6 @@ ul.apps li:hover a {
 }
 
 @media (max-width: 767px) {
-	.special {
-		flex-direction: column;
-	}
 	.special .image {
 		flex: 70%;
 	}
